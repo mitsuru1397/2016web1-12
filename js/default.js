@@ -3,7 +3,7 @@ document.getElementById('form').onsubmit = function(){
   var num = parseInt(word);
 };
 
-for(var i = 1; i < num; i++){
+for(var i = 1; i < 100; i++){
 var li = document.createElement('li');
 
 if( i % 3 == 0 && i % 5 ==0){
