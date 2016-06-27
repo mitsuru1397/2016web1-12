@@ -1,8 +1,9 @@
 document.getElementById('form').onsubmit = function(){
   window.alert(document.getElementById('form').word.value);
+  var num = parseInt(document.getElementById('form').word);
 };
 
-for(var i = 1; i < word; i++){
+for(var i = 1; i < num; i++){
 var li = document.createElement('li');
 
 if( i % 3 == 0 && i % 5 ==0){
