@@ -1,6 +1,6 @@
 document.getElementById('form').onsubmit = function(){
   window.alert(document.getElementById('form').word.value);
-  var num = parseInt(document.getElementById('form').word);
+  var num = parseInt(word);
 };
 
 for(var i = 1; i < num; i++){
