@@ -1,10 +1,9 @@
 document.getElementById('form').onsubmit = function(){
   window.alert(document.getElementById('form').word.value);
-  var str = word;
-  var num = parseInt(str);
+  var num = parseInt(word);
 };
 
-for(var i = 1; i < num; i++){
+for(var i = 1; i < 101; i++){
 var li = document.createElement('li');
 
 if( i % 3 == 0 && i % 5 ==0){
